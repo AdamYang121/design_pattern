@@ -4,7 +4,7 @@
 
 #include "Burger.h"
 
-Burger::Burger() {
+Burger::Burger() : m_bun(""), m_name(""){
 
 }
 
@@ -34,6 +34,6 @@ void Burger::Wrap() {
 }
 
 string Burger::GetName() {
-    return this->m_name;
+    return m_name;
 }
 

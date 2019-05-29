@@ -5,13 +5,12 @@
 #ifndef DESIGN_PATTERNS_WENDYSFACTORY_H
 #define DESIGN_PATTERNS_WENDYSFACTORY_H
 
-
 #include "Burger.h"
+#include "BurgerFactory.h"
 
-class WendysFactory {
+class WendysFactory : public BurgerFactory {
 public:
     WendysFactory();
-
     virtual ~WendysFactory();
     Burger* CreateBurger(string type);
 };

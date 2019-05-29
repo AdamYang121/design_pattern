@@ -14,5 +14,6 @@ public:
 
     virtual ~BurgerFactory();
     Burger* OrderBurger(string type);
+    virtual Burger* CreateBurger(string type); // virtual method can be override by the subclass
 };
 #endif //DESIGN_PATTERNS_BURGERFACTORY_H

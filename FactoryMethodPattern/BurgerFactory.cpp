@@ -16,5 +16,9 @@ Burger *BurgerFactory::OrderBurger(string type) {
     burger->Grill();
     burger->Prepare();
     burger->Wrap();
+    return burger;
+}
+
+Burger *BurgerFactory::CreateBurger(string type) {
     return nullptr;
 }

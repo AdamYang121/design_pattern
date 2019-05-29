@@ -9,7 +9,6 @@
 #include "BurgerFactory.h"
 
 class McDonaldsFactory : public BurgerFactory {
-
 public:
     McDonaldsFactory();
 
