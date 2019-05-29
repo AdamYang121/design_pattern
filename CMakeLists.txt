@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(design_patterns)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(design_patterns main.cpp StrategyPattern/WeaponBehavior.h StrategyPattern/BlasterBehavior.cpp StrategyPattern/BlasterBehavior.h StrategyPattern/LightSaberBehavior.cpp StrategyPattern/LightSaberBehavior.h StrategyPattern/CrossBowBehavior.cpp StrategyPattern/CrossBowBehavior.h StrategyPattern/StarWarsCharacter.cpp StrategyPattern/StarWarsCharacter.h)
